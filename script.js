@@ -15,6 +15,9 @@ seeBtn.addEventListener('click', () => {
     } else if (userInput.value = computerGenerater) {
         displayText.style.color = 'green' 
         displayText.innerHTML = 'Congratulation You Win Your Guess Number is Equal to Computer Guess'
+        setTimeout(()=>{
+            location.reload()
+        },2000)
     }
 
 })
